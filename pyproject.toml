@@ -1,0 +1,19 @@
+[project]
+name = "best-dist-dev"
+version = "0.1.0"
+description = "包项目开发模版"
+authors = [
+    {name = "studyxiao", email = "studyxiao@163.com"},
+]
+dependencies = []
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
