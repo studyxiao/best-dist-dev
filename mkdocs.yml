@@ -1,0 +1,47 @@
+site_name: Best Dist Dev
+
+repo_url: https://github.com/studyxiao/best-dist-dev
+repo_name: studyxiao/best-dist-dev
+
+theme:
+  name: "material"
+  language: zh
+  features:
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+
+plugins:
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            docstring_style: google
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      linenums: true
+      anchor_linenums: true
+      auto_title: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - tables
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji
+  - toc:
+      permalink: "#"
+
+nav:
+  - Best Dict Dev: index.md
