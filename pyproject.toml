@@ -34,6 +34,10 @@ doc = [
   "mkdocs-material>=9.5.4",
   "mkdocstrings[python]>=0.24.0",
 ]
+dev = [
+    "rich>=13.7.0",
+    "ipython>=8.20.0",
+]
 
 [tool.ruff]
 src = ["src"]

@@ -12,6 +12,7 @@
     "**/__pycache__": true,
     ".venv/": true,
     ".ruff_cache/": true,
+    ".pdm_build/": true,
   },
   "python.analysis.autoImportCompletions": true,
   "evenBetterToml.formatter.arrayTrailingComma": true,
