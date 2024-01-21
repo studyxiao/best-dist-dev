@@ -11,6 +11,10 @@
   "files.exclude": {
     "**/__pycache__": true,
     ".venv/": true,
+    ".ruff_cache/": true,
   },
   "python.analysis.autoImportCompletions": true,
+  "evenBetterToml.formatter.arrayTrailingComma": true,
+  "evenBetterToml.formatter.arrayAutoExpand": true,
+  "evenBetterToml.formatter.arrayAutoCollapse": false,
 }
